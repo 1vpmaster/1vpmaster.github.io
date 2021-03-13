@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>C++一个简单的删除句子中元音字符的程序</title>
-      <link href="/2021/09/09/c-yi-ge-jian-dan-de-shan-chu-ju-zi-zhong-yuan-yin-zi-fu-de-cheng-xu/"/>
-      <url>/2021/09/09/c-yi-ge-jian-dan-de-shan-chu-ju-zi-zhong-yuan-yin-zi-fu-de-cheng-xu/</url>
-      
-        <content type="html"><![CDATA[<pre class="line-numbers language-c++"><code class="language-c++">#include <iostream>using namespace std;void main(){    char c;    string str;    while(c = getchar())    {        if(c == '\n')        {            break;        }            if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'||c=='a'||c=='e'||c=='i'||c=='o'||c=='u')        {                    }        else            str+=c;    }    cout<<str.c_str()<<endl;    system("pause");}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 算法 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> C++ </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>深度学习细节</title>
       <link href="/2021/02/06/shen-du-xue-xi-xi-jie/"/>
       <url>/2021/02/06/shen-du-xue-xi-xi-jie/</url>
@@ -416,6 +391,31 @@
         <tags>
             
             <tag> pycharm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C++一个简单的删除句子中元音字符的程序</title>
+      <link href="/2019/09/09/c-yi-ge-jian-dan-de-shan-chu-ju-zi-zhong-yuan-yin-zi-fu-de-cheng-xu/"/>
+      <url>/2019/09/09/c-yi-ge-jian-dan-de-shan-chu-ju-zi-zhong-yuan-yin-zi-fu-de-cheng-xu/</url>
+      
+        <content type="html"><![CDATA[<pre class="line-numbers language-c++"><code class="language-c++">#include <iostream>using namespace std;void main(){    char c;    string str;    while(c = getchar())    {        if(c == '\n')        {            break;        }            if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'||c=='a'||c=='e'||c=='i'||c=='o'||c=='u')        {                    }        else            str+=c;    }    cout<<str.c_str()<<endl;    system("pause");}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C++ </tag>
             
         </tags>
       
