@@ -2,16 +2,170 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://1vpmaster.github.io/contact/index.html</loc>
+    <loc>https://1vpmaster.github.io/2021/02/06/shen-du-xue-xi-xi-jie/</loc>
     
-    <lastmod>2021-03-13T07:37:09.802Z</lastmod>
+    <lastmod>2021-03-13T11:03:07.014Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2021/01/22/unity-chuan-kou-tong-xin-quan-liu-cheng/</loc>
+    
+    <lastmod>2021-03-13T11:01:37.344Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/12/19/li-yong-unity-zhi-zuo-zi-ji-de-mu-biao-jian-ce-shu-ju-ji/</loc>
+    
+    <lastmod>2021-03-13T10:59:51.834Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/11/23/ubuntu-xi-tong-pei-zhi-git-ji-github/</loc>
+    
+    <lastmod>2021-03-13T10:57:57.693Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/09/11/vscode-lian-jie-docker-yuan-cheng-diao-shi/</loc>
+    
+    <lastmod>2021-03-13T10:56:19.707Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/07/31/python-chuang-jian-xml-bing-wan-cheng-ji-ben-de-cao-zuo/</loc>
+    
+    <lastmod>2021-03-13T10:54:40.181Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/07/24/yu-yi-fen-ge-bi-sai-tricks/</loc>
+    
+    <lastmod>2021-03-13T10:52:38.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/06/26/ren-ti-zi-tai-shu-ju-ji-ke-shi-hua-heatmap-yi-coco-shu-ju-ji-wei-li/</loc>
+    
+    <lastmod>2021-03-13T10:50:45.154Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/05/24/windows-api-shi-xian-dui-zhi-ding-chuang-kou-ming-cheng-jin-xing-jie-tu-bao-cun/</loc>
+    
+    <lastmod>2021-03-13T10:48:26.549Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/05/24/du-0202-nian-liao-na-xie-jing-dian-de-mu-biao-jian-ce-suan-fa-ni-huan-hui-kan-ma/</loc>
+    
+    <lastmod>2021-03-13T10:46:01.956Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/05/24/coco-he-mpii-yi-ji-crowdpose-shu-ju-ji-jin-xing-zi-ding-yi-ke-shi-hua-bu-yong-cocoapi/</loc>
+    
+    <lastmod>2021-03-13T10:43:48.947Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2020/01/18/unity3d-shi-xian-shu-biao-kong-zhi-xiang-ji-rao-wu-ti-xuan-zhuan-dai-zu-ni/</loc>
+    
+    <lastmod>2021-03-13T10:41:42.566Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2019/12/29/tx2-an-zhuang-jetpack4-3-sui-hou-pei-zhi-yolov3-ji-pytorch1-3-quan-guo-cheng/</loc>
+    
+    <lastmod>2021-03-13T10:39:54.904Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2019/11/12/python3-7-cmake-boost-vs2017-dlib-cheng-gong-an-zhuang-face-recognition/</loc>
+    
+    <lastmod>2021-03-13T10:38:06.679Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2019/10/03/ru-he-zai-pycharm-zhong-shi-yong-ji-qi-xue-xi-zi-dong-bu-quan-cha-jian-tabnine/</loc>
+    
+    <lastmod>2021-03-13T10:36:22.585Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2019/07/29/yu-yi-fen-ge-you-jian-ru-fan-jing-dian-de-dai-ma-shi-xian-tensorflow-keras/</loc>
+    
+    <lastmod>2021-03-13T10:34:23.992Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2019/06/30/windows-huan-jing-an-zhuang-tensorflow-bu-xu-yao-an-zhuang-anaconda/</loc>
+    
+    <lastmod>2021-03-13T10:09:48.713Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2019/07/01/yu-yi-fen-ge-shu-ju-kuo-zeng/</loc>
+    
+    <lastmod>2021-03-13T10:09:41.565Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2019/07/08/ji-yu-pil-ku-de-tu-xiang-pin-jie-chu-li-cao-zuo/</loc>
+    
+    <lastmod>2021-03-13T10:09:36.841Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2019/07/12/zhen-dui-yu-yi-fen-ge-yang-ben-bu-ping-heng-de-suan-fa-diao-zheng/</loc>
+    
+    <lastmod>2021-03-13T10:09:33.290Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2021/09/09/c-yi-ge-jian-dan-de-shan-chu-ju-zi-zhong-yuan-yin-zi-fu-de-cheng-xu/</loc>
+    
+    <lastmod>2021-03-13T10:06:07.917Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/2018/09/06/mfc-guan-yu-shi-xian-xiao-cheng-xu-deng-lu-zhu-ce-gong-neng-de-shi-xian/</loc>
+    
+    <lastmod>2021-03-13T10:05:33.229Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://1vpmaster.github.io/about/index.html</loc>
     
-    <lastmod>2021-03-13T07:33:18.914Z</lastmod>
+    <lastmod>2021-03-13T09:17:51.977Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://1vpmaster.github.io/contact/index.html</loc>
+    
+    <lastmod>2021-03-13T07:37:09.802Z</lastmod>
     
   </url>
   
@@ -23,7 +177,7 @@
   </url>
   
   <url>
-    <loc>https://1vpmaster.github.io/2019/08/27/blog-open-source/</loc>
+    <loc>https://1vpmaster.github.io/archives/index.html</loc>
     
     <lastmod>2021-03-13T05:00:08.773Z</lastmod>
     
@@ -31,13 +185,6 @@
   
   <url>
     <loc>https://1vpmaster.github.io/categories/index.html</loc>
-    
-    <lastmod>2021-03-13T05:00:08.773Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://1vpmaster.github.io/archives/index.html</loc>
     
     <lastmod>2021-03-13T05:00:08.773Z</lastmod>
     

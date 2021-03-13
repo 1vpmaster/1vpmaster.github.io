@@ -650,21 +650,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/" target="_blank">1</a></span>
+    <span class="count"><a href="/" target="_blank">22</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories" target="_blank">1</a></span>
+    <span class="count"><a href="/categories" target="_blank">10</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags" target="_blank">3</a></span>
+    <span class="count"><a href="/tags" target="_blank">23</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -679,21 +679,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/" target="_blank">1</a></span>
+    <span class="count"><a href="/" target="_blank">22</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories" target="_blank">1</a></span>
+    <span class="count"><a href="/categories" target="_blank">10</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags" target="_blank">3</a></span>
+    <span class="count"><a href="/tags" target="_blank">23</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -838,7 +838,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,0],
+                data: [0,0,3,1,2,0,1,0,1,1,1,1,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -880,7 +880,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"软件安装与配置","value":1}],
+                data: [{"name":"算法","value":1},{"name":"人体姿态识别","value":2},{"name":"软件开发","value":1},{"name":"问题与bug","value":6},{"name":"Unity","value":1},{"name":"语义分割","value":6},{"name":"git","value":1},{"name":"unity","value":2},{"name":"学习笔记","value":1},{"name":"目标检测","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -904,7 +904,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: ["Hexo","Github","博客"]
+                data: ["python","语义分割","数据集可视化","c++","人体姿态识别","unity","目标检测","xml","Unity","C#"]
             }
         ],
         yAxis: [
@@ -917,7 +917,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1,1],
+                data: [6,6,2,2,2,2,2,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -946,6 +946,57 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     tagsChart.setOption(tagsOption);
 </script>
 
+                
+                
+<div class="my-projects">
+    <div class="title center-align" data-aos="zoom-in-up">
+        <i class="fa fa-gift"></i>&nbsp;&nbsp;我的项目
+    </div>
+    <div class="row">
+        
+        
+        <div class="col s12 m6 l4" data-aos="fade-up">
+            <div class="info center-align">
+                <a href="https://github.com/1vpmaster" class="icon"
+                   style="background: linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)" target="_blank">
+                    <i class="fa fa-file-text-o"></i>
+                </a>
+                <div class="info-title">
+                    <a href="https://github.com/1vpmaster" target="_blank">基于 alphapose 的人体姿态识别与人机交互</a>
+                </div>
+                <div class="info-desc">本科毕设。基于 alphapose 人体姿态检测网络采集人体五类动作，对关键点进行 SVM 分类得到分类结果，通过 ROS 系统控制 bebop 无人机云台转动以及仿真环境下无人机的自主飞行</div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4" data-aos="fade-up">
+            <div class="info center-align">
+                <a href="http://github.com/1vpmaster" class="icon"
+                   style="background: linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)" target="_blank">
+                    <i class="fa fa-meetup"></i>
+                </a>
+                <div class="info-title">
+                    <a href="http://github.com/1vpmaster" target="_blank">中科星图杯语义分割赛道竞赛</a>
+                </div>
+                <div class="info-desc">语义分割赛道第13名。基于 HRNET‐OCR 网络进行数据训练，并融合多种注意力机制以及改变辅助语义分割头进行网络改进。</div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4" data-aos="fade-up">
+            <div class="info center-align">
+                <a href="https://github.com/1vpmaster" class="icon"
+                   style="background: linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)" target="_blank">
+                    <i class="fa fa-file-text-o"></i>
+                </a>
+                <div class="info-title">
+                    <a href="https://github.com/1vpmaster" target="_blank">计算机视觉工具</a>
+                </div>
+                <div class="info-desc">基于pyqt5的计算机视觉小工具</div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
                 
 
                 
@@ -1024,20 +1075,136 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/Hexo/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">Hexo</span>
+            
+            
+            <a href="/tags/人体姿态识别/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">人体姿态识别</span>
             </a>
             
             
             
-            <a href="/tags/Github/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">Github</span>
+            <a href="/tags/数据集可视化/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">数据集可视化</span>
             </a>
             
             
             
-            <a href="/tags/博客/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">博客</span>
+            <a href="/tags/c/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">c++</span>
+            </a>
+            
+            
+            
+            <a href="/tags/MFC/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">MFC</span>
+            </a>
+            
+            
+            
+            <a href="/tags/TX2/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">TX2</span>
+            </a>
+            
+            
+            
+            <a href="/tags/python/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">python</span>
+            </a>
+            
+            
+            
+            <a href="/tags/deeplearning/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">deeplearning</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Unity/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Unity</span>
+            </a>
+            
+            
+            
+            <a href="/tags/C/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">C#</span>
+            </a>
+            
+            
+            
+            <a href="/tags/语义分割/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">语义分割</span>
+            </a>
+            
+            
+            
+            <a href="/tags/xml/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">xml</span>
+            </a>
+            
+            
+            
+            <a href="/tags/人脸识别/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">人脸识别</span>
+            </a>
+            
+            
+            
+            <a href="/tags/git/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">git</span>
+            </a>
+            
+            
+            
+            <a href="/tags/vscode/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">vscode</span>
+            </a>
+            
+            
+            
+            <a href="/tags/docker/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">docker</span>
+            </a>
+            
+            
+            
+            <a href="/tags/windows/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">windows</span>
+            </a>
+            
+            
+            
+            <a href="/tags/unity/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">unity</span>
+            </a>
+            
+            
+            
+            <a href="/tags/目标检测/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">目标检测</span>
+            </a>
+            
+            
+            
+            <a href="/tags/pytorch/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">pytorch</span>
+            </a>
+            
+            
+            
+            <a href="/tags/pycharm/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">pycharm</span>
+            </a>
+            
+            
+            
+            <a href="/tags/比赛/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">比赛</span>
+            </a>
+            
+            
+            
+            <a href="/tags/串口通信/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">串口通信</span>
             </a>
             
             
@@ -1059,10 +1226,15 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                         </div>
                         <div id="articleContent" data-aos="fade-up">
                             <h1 id="教育经历"><a href="#教育经历" class="headerlink" title="教育经历"></a>教育经历</h1><ul>
-<li><b>硕士 飞行器动力学与控制</b><br>北京理工大学</li>
+<li><p><b>硕士 飞行器动力学与控制</b><br>北京理工大学</p>
+</li>
+<li><p><b>本科 探测与控制技术</b><br>北京理工大学</p>
+</li>
 </ul>
 <h1 id="获得荣誉"><a href="#获得荣誉" class="headerlink" title="获得荣誉"></a>获得荣誉</h1><ul>
 <li><p><b>优秀学生</b></p>
+</li>
+<li><p><b>优秀团员</b></p>
 </li>
 <li><p><b>待更……</b></p>
 </li>
@@ -1124,7 +1296,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">1.2k</span> 字
+                <span class="white-color">16.5k</span> 字
             
 
             
@@ -1340,5 +1512,5 @@ $(function () {
             </script>
         
 
-    <script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
 </html>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://1vpmaster.github.io/"/>
-  <updated>2021-03-13T05:00:08.773Z</updated>
+  <updated>2021-03-13T10:06:07.917Z</updated>
   <id>https://1vpmaster.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客开源</title>
-    <link href="https://1vpmaster.github.io/2019/08/27/blog-open-source/"/>
-    <id>https://1vpmaster.github.io/2019/08/27/blog-open-source/</id>
-    <published>2019-08-27T03:41:03.000Z</published>
-    <updated>2021-03-13T05:00:08.773Z</updated>
+    <title>C++一个简单的删除句子中元音字符的程序</title>
+    <link href="https://1vpmaster.github.io/2021/09/09/c-yi-ge-jian-dan-de-shan-chu-ju-zi-zhong-yuan-yin-zi-fu-de-cheng-xu/"/>
+    <id>https://1vpmaster.github.io/2021/09/09/c-yi-ge-jian-dan-de-shan-chu-ju-zi-zhong-yuan-yin-zi-fu-de-cheng-xu/</id>
+    <published>2021-09-09T02:33:54.000Z</published>
+    <updated>2021-03-13T10:06:07.917Z</updated>
     
     <summary type="html">
     
@@ -29,20 +29,558 @@
       
         
         
-          &lt;h1 id=&quot;效果演示&quot;&gt;&lt;a href=&quot;#效果演示&quot; class=&quot;headerlink&quot; title=&quot;效果演示&quot;&gt;&lt;/a&gt;效果演示&lt;/h1&gt;&lt;p&gt;&lt;img
+          &lt;pre class=&quot;line-numbers language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;#include &lt;iostream&gt;
+using namespace std;
+void main()
+{
+    char c;
+   
         
       
     
     </summary>
     
-      <category term="软件安装与配置" scheme="https://1vpmaster.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+      <category term="算法" scheme="https://1vpmaster.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="Hexo" scheme="https://1vpmaster.github.io/tags/Hexo/"/>
+      <category term="C++" scheme="https://1vpmaster.github.io/tags/C/"/>
     
-      <category term="Github" scheme="https://1vpmaster.github.io/tags/Github/"/>
+  </entry>
+  
+  <entry>
+    <title>深度学习细节</title>
+    <link href="https://1vpmaster.github.io/2021/02/06/shen-du-xue-xi-xi-jie/"/>
+    <id>https://1vpmaster.github.io/2021/02/06/shen-du-xue-xi-xi-jie/</id>
+    <published>2021-02-06T03:43:56.000Z</published>
+    <updated>2021-03-13T11:03:07.014Z</updated>
     
-      <category term="博客" scheme="https://1vpmaster.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Pytorch&quot;&gt;&lt;a href=&quot;#Pytorch&quot; class=&quot;headerlink&quot; title=&quot;Pytorch&quot;&gt;&lt;/a&gt;Pytorch&lt;/h1&gt;&lt;h2 id=&quot;nn内部的关系&quot;&gt;&lt;a href=&quot;#nn内部的关系&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="https://1vpmaster.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="pytorch" scheme="https://1vpmaster.github.io/tags/pytorch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>unity串口通信全流程</title>
+    <link href="https://1vpmaster.github.io/2021/01/22/unity-chuan-kou-tong-xin-quan-liu-cheng/"/>
+    <id>https://1vpmaster.github.io/2021/01/22/unity-chuan-kou-tong-xin-quan-liu-cheng/</id>
+    <published>2021-01-22T09:21:55.000Z</published>
+    <updated>2021-03-13T11:01:37.344Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;工具&quot;&gt;&lt;a href=&quot;#工具&quot; class=&quot;headerlink&quot; title=&quot;工具&quot;&gt;&lt;/a&gt;工具&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;虚拟串口调试工具 Virtual Serial Port Driver 6.9&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="unity" scheme="https://1vpmaster.github.io/categories/unity/"/>
+    
+    
+      <category term="unity" scheme="https://1vpmaster.github.io/tags/unity/"/>
+    
+      <category term="串口通信" scheme="https://1vpmaster.github.io/tags/%E4%B8%B2%E5%8F%A3%E9%80%9A%E4%BF%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用unity制作自己的目标检测数据集</title>
+    <link href="https://1vpmaster.github.io/2020/12/19/li-yong-unity-zhi-zuo-zi-ji-de-mu-biao-jian-ce-shu-ju-ji/"/>
+    <id>https://1vpmaster.github.io/2020/12/19/li-yong-unity-zhi-zuo-zi-ji-de-mu-biao-jian-ce-shu-ju-ji/</id>
+    <published>2020-12-19T10:54:09.000Z</published>
+    <updated>2021-03-13T10:59:51.834Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;搭建场景&quot;&gt;&lt;a href=&quot;#搭建场景&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="unity" scheme="https://1vpmaster.github.io/categories/unity/"/>
+    
+    
+      <category term="unity" scheme="https://1vpmaster.github.io/tags/unity/"/>
+    
+      <category term="目标检测" scheme="https://1vpmaster.github.io/tags/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu系统配置git及github</title>
+    <link href="https://1vpmaster.github.io/2020/11/23/ubuntu-xi-tong-pei-zhi-git-ji-github/"/>
+    <id>https://1vpmaster.github.io/2020/11/23/ubuntu-xi-tong-pei-zhi-git-ji-github/</id>
+    <published>2020-11-23T05:40:57.000Z</published>
+    <updated>2021-03-13T10:57:57.693Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-安装配置git服务器&quot;&gt;&lt;a href=&quot;#1-安装配置git服务器&quot; class=&quot;headerlink&quot; title=&quot;1.安装配置git服务器&quot;&gt;&lt;/a&gt;1.安装配置git服务器&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;安装ssh: &lt;code&gt;sudo
+        
+      
+    
+    </summary>
+    
+      <category term="git" scheme="https://1vpmaster.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="https://1vpmaster.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode连接docker远程调试</title>
+    <link href="https://1vpmaster.github.io/2020/09/11/vscode-lian-jie-docker-yuan-cheng-diao-shi/"/>
+    <id>https://1vpmaster.github.io/2020/09/11/vscode-lian-jie-docker-yuan-cheng-diao-shi/</id>
+    <published>2020-09-11T07:55:50.000Z</published>
+    <updated>2021-03-13T10:56:19.707Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;vscode连接docker远程调试&quot;&gt;&lt;a href=&quot;#vscode连接docker远程调试&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="问题与bug" scheme="https://1vpmaster.github.io/categories/%E9%97%AE%E9%A2%98%E4%B8%8Ebug/"/>
+    
+    
+      <category term="vscode" scheme="https://1vpmaster.github.io/tags/vscode/"/>
+    
+      <category term="docker" scheme="https://1vpmaster.github.io/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python创建xml并完成基本的操作</title>
+    <link href="https://1vpmaster.github.io/2020/07/31/python-chuang-jian-xml-bing-wan-cheng-ji-ben-de-cao-zuo/"/>
+    <id>https://1vpmaster.github.io/2020/07/31/python-chuang-jian-xml-bing-wan-cheng-ji-ben-de-cao-zuo/</id>
+    <published>2020-07-31T01:26:20.000Z</published>
+    <updated>2021-03-13T10:54:40.181Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;创建XML文件&quot;&gt;&lt;a href=&quot;#创建XML文件&quot; class=&quot;headerlink&quot; title=&quot;创建XML文件&quot;&gt;&lt;/a&gt;创建XML文件&lt;/h1&gt;&lt;p&gt;首先导入库文件&lt;/p&gt;
+&lt;pre class=&quot;line-numbers
+        
+      
+    
+    </summary>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/categories/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+    
+      <category term="python" scheme="https://1vpmaster.github.io/tags/python/"/>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/tags/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+      <category term="xml" scheme="https://1vpmaster.github.io/tags/xml/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>语义分割比赛tricks</title>
+    <link href="https://1vpmaster.github.io/2020/07/24/yu-yi-fen-ge-bi-sai-tricks/"/>
+    <id>https://1vpmaster.github.io/2020/07/24/yu-yi-fen-ge-bi-sai-tricks/</id>
+    <published>2020-07-24T14:24:28.000Z</published>
+    <updated>2021-03-13T10:52:38.460Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;语义分割大全&quot;&gt;&lt;a href=&quot;#语义分割大全&quot; class=&quot;headerlink&quot; title=&quot;语义分割大全&quot;&gt;&lt;/a&gt;语义分割大全&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/categories/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/tags/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+      <category term="比赛" scheme="https://1vpmaster.github.io/tags/%E6%AF%94%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人体姿态数据集可视化heatmap，以coco数据集为例</title>
+    <link href="https://1vpmaster.github.io/2020/06/26/ren-ti-zi-tai-shu-ju-ji-ke-shi-hua-heatmap-yi-coco-shu-ju-ji-wei-li/"/>
+    <id>https://1vpmaster.github.io/2020/06/26/ren-ti-zi-tai-shu-ju-ji-ke-shi-hua-heatmap-yi-coco-shu-ju-ji-wei-li/</id>
+    <published>2020-06-26T01:52:25.000Z</published>
+    <updated>2021-03-13T10:50:45.154Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;该代码对于一张图进行heatmap图片的可视化，会存储coco的17组关节点图片，即每一个heatmap包含图片中所有人体的同一关节点位置。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-python&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+      <category term="人体姿态识别" scheme="https://1vpmaster.github.io/categories/%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81%E8%AF%86%E5%88%AB/"/>
+    
+    
+      <category term="人体姿态识别" scheme="https://1vpmaster.github.io/tags/%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="数据集可视化" scheme="https://1vpmaster.github.io/tags/%E6%95%B0%E6%8D%AE%E9%9B%86%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>windows api 实现对指定窗口名称进行截图保存</title>
+    <link href="https://1vpmaster.github.io/2020/05/24/windows-api-shi-xian-dui-zhi-ding-chuang-kou-ming-cheng-jin-xing-jie-tu-bao-cun/"/>
+    <id>https://1vpmaster.github.io/2020/05/24/windows-api-shi-xian-dui-zhi-ding-chuang-kou-ming-cheng-jin-xing-jie-tu-bao-cun/</id>
+    <published>2020-05-24T03:15:44.000Z</published>
+    <updated>2021-03-13T10:48:26.549Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;有几个问题&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;第一是有些窗口的截图是黑色的&lt;/li&gt;
+&lt;li&gt;第二是截出来的窗口的显示大小有些问题&lt;/li&gt;
+&lt;li&gt;第三是只能截出现在桌面的窗口（包括被挡住的窗口），但是不包括最小化的窗口&lt;br&gt;如果有大佬知道怎么做，一定要教教我啊，谢谢！&lt;/li
+        
+      
+    
+    </summary>
+    
+      <category term="问题与bug" scheme="https://1vpmaster.github.io/categories/%E9%97%AE%E9%A2%98%E4%B8%8Ebug/"/>
+    
+    
+      <category term="c++" scheme="https://1vpmaster.github.io/tags/c/"/>
+    
+      <category term="windows" scheme="https://1vpmaster.github.io/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>都0202年了，那些经典的目标检测算法你还会看吗？</title>
+    <link href="https://1vpmaster.github.io/2020/05/24/du-0202-nian-liao-na-xie-jing-dian-de-mu-biao-jian-ce-suan-fa-ni-huan-hui-kan-ma/"/>
+    <id>https://1vpmaster.github.io/2020/05/24/du-0202-nian-liao-na-xie-jing-dian-de-mu-biao-jian-ce-suan-fa-ni-huan-hui-kan-ma/</id>
+    <published>2020-05-24T03:06:11.000Z</published>
+    <updated>2021-03-13T10:46:01.956Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Faster-R-CNN&quot;&gt;&lt;a href=&quot;#Faster-R-CNN&quot; class=&quot;headerlink&quot; title=&quot;Faster R-CNN&quot;&gt;&lt;/a&gt;Faster R-CNN&lt;/h1&gt;&lt;h2 id=&quot;一、网络结构&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="目标检测" scheme="https://1vpmaster.github.io/categories/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/"/>
+    
+    
+      <category term="目标检测" scheme="https://1vpmaster.github.io/tags/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>COCO和MPII以及Crowdpose数据集进行自定义可视化，不用cocoapi</title>
+    <link href="https://1vpmaster.github.io/2020/05/24/coco-he-mpii-yi-ji-crowdpose-shu-ju-ji-jin-xing-zi-ding-yi-ke-shi-hua-bu-yong-cocoapi/"/>
+    <id>https://1vpmaster.github.io/2020/05/24/coco-he-mpii-yi-ji-crowdpose-shu-ju-ji-jin-xing-zi-ding-yi-ke-shi-hua-bu-yong-cocoapi/</id>
+    <published>2020-05-24T02:12:30.000Z</published>
+    <updated>2021-03-13T10:43:48.947Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;COCO数据集进行自定义可视化&quot;&gt;&lt;a href=&quot;#COCO数据集进行自定义可视化&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="人体姿态识别" scheme="https://1vpmaster.github.io/categories/%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81%E8%AF%86%E5%88%AB/"/>
+    
+    
+      <category term="人体姿态识别" scheme="https://1vpmaster.github.io/tags/%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81%E8%AF%86%E5%88%AB/"/>
+    
+      <category term="数据集可视化" scheme="https://1vpmaster.github.io/tags/%E6%95%B0%E6%8D%AE%E9%9B%86%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity3d实现鼠标控制相机绕物体旋转（带阻尼）</title>
+    <link href="https://1vpmaster.github.io/2020/01/18/unity3d-shi-xian-shu-biao-kong-zhi-xiang-ji-rao-wu-ti-xuan-zhuan-dai-zu-ni/"/>
+    <id>https://1vpmaster.github.io/2020/01/18/unity3d-shi-xian-shu-biao-kong-zhi-xiang-ji-rao-wu-ti-xuan-zhuan-dai-zu-ni/</id>
+    <published>2020-01-18T11:30:20.000Z</published>
+    <updated>2021-03-13T10:41:42.566Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本来想的是用四元数实现球性插值实现阻尼效果，但是不知道四元数怎么绕定点旋转。因此用速度衰减的方法进行实现。&lt;br&gt;1.实现鼠标控制相机带阻尼旋转&lt;br&gt;2.实现鼠标中键放大鼠标所在位置的&lt;/p&gt;
+&lt;pre class=&quot;line-numbers
+        
+      
+    
+    </summary>
+    
+      <category term="Unity" scheme="https://1vpmaster.github.io/categories/Unity/"/>
+    
+    
+      <category term="Unity" scheme="https://1vpmaster.github.io/tags/Unity/"/>
+    
+      <category term="C#" scheme="https://1vpmaster.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TX2安装jetpack4.3,随后配置yolov3及pytorch1.3全过程</title>
+    <link href="https://1vpmaster.github.io/2019/12/29/tx2-an-zhuang-jetpack4-3-sui-hou-pei-zhi-yolov3-ji-pytorch1-3-quan-guo-cheng/"/>
+    <id>https://1vpmaster.github.io/2019/12/29/tx2-an-zhuang-jetpack4-3-sui-hou-pei-zhi-yolov3-ji-pytorch1-3-quan-guo-cheng/</id>
+    <published>2019-12-29T07:58:22.000Z</published>
+    <updated>2021-03-13T10:39:54.904Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;TX2采坑全集&quot;&gt;&lt;a href=&quot;#TX2采坑全集&quot; class=&quot;headerlink&quot; title=&quot;TX2采坑全集&quot;&gt;&lt;/a&gt;TX2采坑全集&lt;/h1&gt;&lt;h2 id=&quot;TX2安装jetpack4-3&quot;&gt;&lt;a href=&quot;#TX2安装jetpack4-3&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="问题与bug" scheme="https://1vpmaster.github.io/categories/%E9%97%AE%E9%A2%98%E4%B8%8Ebug/"/>
+    
+    
+      <category term="TX2" scheme="https://1vpmaster.github.io/tags/TX2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python3.7+Cmake+Boost+VS2017+dlib成功安装face_recognition</title>
+    <link href="https://1vpmaster.github.io/2019/11/12/python3-7-cmake-boost-vs2017-dlib-cheng-gong-an-zhuang-face-recognition/"/>
+    <id>https://1vpmaster.github.io/2019/11/12/python3-7-cmake-boost-vs2017-dlib-cheng-gong-an-zhuang-face-recognition/</id>
+    <published>2019-11-12T03:52:08.000Z</published>
+    <updated>2021-03-13T10:38:06.679Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;face_recognition开源人脸识别库凭借超高的准确度，变得十分热门，但是我们如果仅仅使用pip安装face_recognition，大概率会报错。&lt;br&gt;那么需要自己去官网安装dlib库，官网下载地址&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="问题与bug" scheme="https://1vpmaster.github.io/categories/%E9%97%AE%E9%A2%98%E4%B8%8Ebug/"/>
+    
+    
+      <category term="人脸识别" scheme="https://1vpmaster.github.io/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在Pycharm中使用机器学习自动补全插件TabNine</title>
+    <link href="https://1vpmaster.github.io/2019/10/03/ru-he-zai-pycharm-zhong-shi-yong-ji-qi-xue-xi-zi-dong-bu-quan-cha-jian-tabnine/"/>
+    <id>https://1vpmaster.github.io/2019/10/03/ru-he-zai-pycharm-zhong-shi-yong-ji-qi-xue-xi-zi-dong-bu-quan-cha-jian-tabnine/</id>
+    <published>2019-10-03T14:55:03.000Z</published>
+    <updated>2021-03-13T10:36:22.585Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;TabNine是一款机器学习的自动补全插件&lt;br&gt;首先在pycharm中ctrl+alt+s打开设置,点击Plugins，在右边搜索TabNine&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="问题与bug" scheme="https://1vpmaster.github.io/categories/%E9%97%AE%E9%A2%98%E4%B8%8Ebug/"/>
+    
+    
+      <category term="pycharm" scheme="https://1vpmaster.github.io/tags/pycharm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>语义分割由简入繁，经典的代码实现（tensorflow+keras）</title>
+    <link href="https://1vpmaster.github.io/2019/07/29/yu-yi-fen-ge-you-jian-ru-fan-jing-dian-de-dai-ma-shi-xian-tensorflow-keras/"/>
+    <id>https://1vpmaster.github.io/2019/07/29/yu-yi-fen-ge-you-jian-ru-fan-jing-dian-de-dai-ma-shi-xian-tensorflow-keras/</id>
+    <published>2019-07-29T03:56:02.000Z</published>
+    <updated>2021-03-13T10:34:23.992Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;做语义分割的话，第一步就是要制作数据集了，当然你也可以找官方的数据集进行训练，下面我们就先说明如何制作数据集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;官方数据集：1.coco 2.cityscapes&lt;/li&gt;
+&lt;li&gt;制作自己的数据集&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/categories/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+    
+      <category term="python" scheme="https://1vpmaster.github.io/tags/python/"/>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/tags/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>针对语义分割样本不平衡的算法调整</title>
+    <link href="https://1vpmaster.github.io/2019/07/12/zhen-dui-yu-yi-fen-ge-yang-ben-bu-ping-heng-de-suan-fa-diao-zheng/"/>
+    <id>https://1vpmaster.github.io/2019/07/12/zhen-dui-yu-yi-fen-ge-yang-ben-bu-ping-heng-de-suan-fa-diao-zheng/</id>
+    <published>2019-07-12T13:08:03.000Z</published>
+    <updated>2021-03-13T10:09:33.290Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre class=&quot;line-numbers language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; PIL &lt;span class=&quot;token
+        
+      
+    
+    </summary>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/categories/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+    
+      <category term="python" scheme="https://1vpmaster.github.io/tags/python/"/>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/tags/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于PIL库的图像拼接处理操作</title>
+    <link href="https://1vpmaster.github.io/2019/07/08/ji-yu-pil-ku-de-tu-xiang-pin-jie-chu-li-cao-zuo/"/>
+    <id>https://1vpmaster.github.io/2019/07/08/ji-yu-pil-ku-de-tu-xiang-pin-jie-chu-li-cao-zuo/</id>
+    <published>2019-07-08T14:07:04.000Z</published>
+    <updated>2021-03-13T10:09:36.841Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre class=&quot;line-numbers language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; PIL &lt;span class=&quot;token
+        
+      
+    
+    </summary>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/categories/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+    
+      <category term="python" scheme="https://1vpmaster.github.io/tags/python/"/>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/tags/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>语义分割数据扩增</title>
+    <link href="https://1vpmaster.github.io/2019/07/01/yu-yi-fen-ge-shu-ju-kuo-zeng/"/>
+    <id>https://1vpmaster.github.io/2019/07/01/yu-yi-fen-ge-shu-ju-kuo-zeng/</id>
+    <published>2019-07-01T10:31:06.000Z</published>
+    <updated>2021-03-13T10:09:41.565Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre class=&quot;line-numbers language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; PIL &lt;span class=&quot;token
+        
+      
+    
+    </summary>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/categories/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
+    
+    
+      <category term="python" scheme="https://1vpmaster.github.io/tags/python/"/>
+    
+      <category term="语义分割" scheme="https://1vpmaster.github.io/tags/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
     
   </entry>
   
